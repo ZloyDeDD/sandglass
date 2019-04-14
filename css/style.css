@@ -82,3 +82,13 @@ body {
   width: 228px;
   height: 37px;
 }
+
+.page-header__site-name {
+  color: #edeceb;
+}
+
+.page-header__phone {
+  font-weight: 700;
+  font-size: 32px;
+  color: #edeceb;
+}
