@@ -1,3 +1,29 @@
+@font-face {
+  font-style: normal;
+  font-weight: bold;
+  font-family: "segoeui";
+
+  src: url("segoeuib.eot");
+  src: url("segoeuib.eot?#iefix") format("embedded-opentype"),
+  url("segoeuib.woff2") format("woff2"),
+  url("SegoeUI-Bold.svg#SegoeUI-Bold") format("svg"),
+  url("SegoeUI-Bold.ttf") format("truetype"),
+  url("SegoeUI-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "segoeui";
+
+  src: url("segoeui.eot");
+  src: url("segoeui.eot?#iefix") format("embedded-opentype"),
+  url("segoeui.woff2") format("woff2"),
+  url("SegoeUI.svg#SegoeUI") format("svg"),
+  url("SegoeUI.ttf") format("truetype"),
+  url("SegoeUI.woff") format("woff");
+}
+
 *,
 *:before,
 *:after {
@@ -36,6 +62,8 @@ img {
 a {
   text-decoration: none;
 }
+
+
 
 /* HEADER */
 
