@@ -72,13 +72,32 @@ body {
   background-color: #ffffff;
 }
 
+.button {
+  display: inline-block;
+  padding: 25px 55px;
+
+  font: inherit;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 39px;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #007fb2;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 /* HEADER */
 
 .page-header {
   background-color: #231f20;
 }
 
-.page-header__logo {
+.page-header__logo-container {
   width: 228px;
   height: 37px;
 }
@@ -91,4 +110,45 @@ body {
   font-weight: 700;
   font-size: 32px;
   color: #edeceb;
+}
+
+/* INTRO SECTION */
+
+.intro {
+  min-height: 955px;
+
+  background-color: #cdd5da;
+  background-image: url("../img/intro-bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.page-heading {
+  margin: 0;
+  padding: 0;
+
+  font-size: 90px;
+  line-height: 39px;
+  color: #05141d;
+}
+
+.intro__logo-container {
+  width: 162px;
+  height: 164px;
+}
+
+.intro__features {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.intro__features-item h2 {
+  font-size: 50px;
+  line-height: 50px;
+  color: #741c2f;
+}
+
+.intro__features-item p {
+  line-height: 39px;
 }
