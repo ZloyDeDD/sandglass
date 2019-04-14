@@ -36,3 +36,14 @@ img {
 a {
   text-decoration: none;
 }
+
+/* HEADER */
+
+.page-header {
+  background-color: #231f20;
+}
+
+.page-header__logo {
+  width: 228px;
+  height: 37px;
+}
