@@ -72,6 +72,11 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1490px;
+  margin: 0 auto;
+}
+
 .button {
   display: inline-block;
   padding: 25px 55px;
@@ -101,19 +106,32 @@ body {
 /* HEADER */
 
 .page-header {
+  padding: 10px 0;
+
   background-color: #231f20;
+}
+
+.page-header .container {
+  display: flex;
 }
 
 .page-header__logo-container {
   width: 228px;
   height: 37px;
+  margin-left: 25px;
 }
 
 .page-header__site-name {
+  margin-top: 12px;
+  margin-left: 80px;
+
   color: #edeceb;
 }
 
 .page-header__phone {
+  margin-right: 100px;
+  margin-left: auto;
+
   font-weight: 700;
   font-size: 32px;
   color: #edeceb;
