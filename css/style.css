@@ -172,6 +172,8 @@ body {
   line-height: 39px;
 }
 
+/* ABOUT SECTION */
+
 .about {
   min-height: 1080px;
 
@@ -202,6 +204,8 @@ body {
 .about__notice {
   font-size: 36px;
 }
+
+/* PRODUCT SECTION */
 
 .product {
   min-height: 1483px;
@@ -253,6 +257,8 @@ body {
   list-style: none;
 }
 
+/* ORDER SECTION */
+
 .order {
   min-height: 691px;
 
@@ -277,6 +283,8 @@ body {
   font: inherit;
   color: #19171c;
 }
+
+/* CONTACTS SECTION */
 
 .contacts address {
   font-style: normal;
@@ -307,6 +315,8 @@ body {
   background-position: center center;
   background-size: cover;
 }
+
+/* SEO SECTION */
 
 .seo__text p {
   margin: 0;
