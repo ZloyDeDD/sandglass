@@ -277,3 +277,33 @@ body {
   font: inherit;
   color: #19171c;
 }
+
+.contacts address {
+  font-style: normal;
+}
+
+.contacts p {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__work-time--weekends {
+  color: #be0000;
+}
+
+.contacts__phone {
+  color: #05141d;
+}
+
+.contacts__email {
+  color: #1a8cba;
+}
+
+.contacts__map {
+  min-height: 649px;
+
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
