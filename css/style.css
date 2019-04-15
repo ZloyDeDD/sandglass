@@ -240,7 +240,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 1080px;
-  padding: 115px 0;
+  padding-top: 115px;
+  padding-bottom: 115px;
 }
 
 .about .section-heading {
@@ -291,7 +292,8 @@ body {
 
 .product .container {
   min-height: 1483px;
-  padding: 95px 0;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .product__list {
