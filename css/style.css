@@ -307,3 +307,8 @@ body {
   background-position: center center;
   background-size: cover;
 }
+
+.seo__text p {
+  margin: 0;
+  padding: 0;
+}
