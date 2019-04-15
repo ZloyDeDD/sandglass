@@ -252,3 +252,28 @@ body {
 
   list-style: none;
 }
+
+.order {
+  min-height: 691px;
+
+  background-color: #e8f3f5;
+  background-image: url("../img/order-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.order .section-heading {
+  color: #007fb2;
+}
+
+.form__item input {
+  padding: 7px 12px;
+
+  border: 1px solid #007fb2;
+}
+
+.form__item input::placeholder {
+  font: inherit;
+  color: #19171c;
+}
