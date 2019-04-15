@@ -89,6 +89,13 @@ body {
   border: none;
   border-radius: 6px;
   cursor: pointer;
+
+  transition: all 0.2s ease-in;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #005577;
 }
 
 /* HEADER */
