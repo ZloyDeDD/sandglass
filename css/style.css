@@ -120,6 +120,7 @@ body {
   background-color: #cdd5da;
   background-image: url("../img/intro-bg.jpg");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .page-heading {
@@ -151,4 +152,43 @@ body {
 
 .intro__features-item p {
   line-height: 39px;
+}
+
+.section-heading {
+  margin: 0;
+  padding: 0;
+
+  font-size: 72px;
+  line-height: 39px;
+}
+
+.about {
+  min-height: 1080px;
+
+  background-color: #ffffff;
+  background-image: url("../img/about-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.about p {
+  margin: 0;
+  padding: 0;
+}
+
+.about__features {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.about__features-item {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.about__notice {
+  font-size: 36px;
 }
