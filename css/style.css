@@ -135,6 +135,13 @@ body {
   font-weight: 700;
   font-size: 32px;
   color: #edeceb;
+
+  transition: all 0.2s ease-in;
+}
+
+.page-header__phone:hover,
+.page-footer__phone:focus {
+  color: #909090;
 }
 
 /* INTRO SECTION */
