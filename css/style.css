@@ -116,6 +116,27 @@ body {
   text-align: center;
 }
 
+.custom-list__item {
+  position: relative;
+
+  padding-left: 55px;
+}
+
+.custom-list__item::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 25px;
+
+  width: 18px;
+  height: 16px;
+
+  background-image: url("../img/list-style.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
 /* HEADER */
 
 .page-header {
@@ -285,29 +306,10 @@ body {
 }
 
 .about__features-item {
-  position: relative;
-
   margin: 0;
-  padding: 0;
-  padding-left: 55px;
 
   font-weight: 700;
   font-size: 24px;
-}
-
-.about__features-item::before {
-  content: "";
-  position: absolute;
-  top: 6px;
-  left: 25px;
-
-  width: 18px;
-  height: 16px;
-
-  background-image: url("../img/list-style.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
 }
 
 .about__notice {
