@@ -320,7 +320,6 @@ body {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
   margin-bottom: 156px;
   padding-top: 180px;
 }
@@ -341,6 +340,10 @@ body {
   -webkit-transform: translate(-50%);
       -ms-transform: translate(-50%);
           transform: translate(-50%);
+}
+
+.about__features .about__features-col:last-child {
+  margin-left: auto;
 }
 
 .about__features-col .about__features-item:not(:last-child) {
