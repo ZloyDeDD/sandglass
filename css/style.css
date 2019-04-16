@@ -125,7 +125,7 @@ body {
 .custom-list__item::before {
   content: "";
   position: absolute;
-  top: 6px;
+  top: 5px;
   left: 0;
 
   width: 18px;
