@@ -503,9 +503,18 @@ body {
   text-align: center;
 }
 
+.page-footer .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .page-footer p {
   margin: 0;
   padding: 0;
+}
+
+.page-footer p:not(:last-child) {
+  margin-bottom: 5px;
 }
 
 .page-footer__phone {
