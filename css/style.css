@@ -373,7 +373,7 @@ body {
 }
 
 .product__list-item:nth-child(odd) {
-  width: 780px;
+  width: 765px;
 }
 
 .product__list-item::before {
