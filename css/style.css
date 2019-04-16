@@ -161,7 +161,7 @@ body {
 
   color: #edeceb;
 
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid;
 }
 
 .page-header__phone {
@@ -551,6 +551,8 @@ body {
 
 .contacts__email {
   color: #1a8cba;
+
+  border-bottom: 1px solid;
 }
 
 .contacts__map {
