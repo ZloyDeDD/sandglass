@@ -140,7 +140,7 @@ body {
 /* HEADER */
 
 .page-header {
-  padding: 10px 0;
+  padding: 7px 0;
 
   background-color: #231f20;
 }
@@ -152,20 +152,21 @@ body {
 .page-header__logo-container {
   width: 228px;
   height: 37px;
-  margin-left: 25px;
+  margin-left: 90px;
 }
 
 .page-header__site-name {
-  margin-top: 12px;
-  margin-left: 80px;
+  margin-top: 15px;
+  margin-left: 56px;
 
+  font-size: 16px;
   color: #edeceb;
 
   border-bottom: 1px solid;
 }
 
 .page-header__phone {
-  margin-right: 100px;
+  margin-right: 140px;
   margin-left: auto;
 
   font-weight: 700;
