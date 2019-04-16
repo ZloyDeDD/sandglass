@@ -252,7 +252,6 @@ body {
 }
 
 .about__text {
-  min-height: 185px;
   margin: 0;
   padding: 0;
 }
@@ -262,12 +261,13 @@ body {
 
   display: flex;
   justify-content: space-between;
+  padding-top: 185px;
 }
 
 .about__features::after {
   content: "";
   position: absolute;
-  top: -70px;
+  top: 20%;
   left: 50%;
 
   width: 445px;
