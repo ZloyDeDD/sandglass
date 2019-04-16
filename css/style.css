@@ -311,10 +311,28 @@ body {
 }
 
 .about__notice {
+  position: relative;
+
   margin-top: auto;
 
   font-size: 36px;
   text-align: center;
+}
+
+.about__notice::after {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 50%;
+
+  width: 66px;
+  height: 66px;
+
+  background-image: url("../img/notice.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  transform: translate(-50%);
 }
 
 /* PRODUCT SECTION */
