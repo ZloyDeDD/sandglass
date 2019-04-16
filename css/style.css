@@ -576,7 +576,24 @@ body {
 }
 
 .seo__text {
+  position: relative;
+
   padding-right: 380px;
+}
+
+.seo__text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 341px;
+  height: 309px;
+
+  background-image: url("../img/packaging.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
 
 .seo__text p {
