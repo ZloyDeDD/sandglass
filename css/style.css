@@ -84,7 +84,7 @@ body {
 
 .button {
   display: inline-block;
-  padding: 25px 55px;
+  padding: 23px 57px;
 
   font: inherit;
   font-weight: 700;
@@ -100,7 +100,7 @@ body {
   border-radius: 15px;
   cursor: pointer;
 
-  transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;;
 }
 
 .button:hover,
