@@ -427,13 +427,29 @@ body {
 
 /* CONTACTS SECTION */
 
+.contacts .container {
+  padding-top: 95px;
+  padding-bottom: 50px;
+}
+
+.contacts .section-heading {
+  margin-bottom: 45px;
+}
+
 .contacts address {
+  margin-bottom: 30px;
+
   font-style: normal;
 }
 
 .contacts p {
   margin: 0;
+  margin-bottom: 5px;
   padding: 0;
+}
+
+.contacts__work-time {
+  margin-bottom: 30px;
 }
 
 .contacts__work-time--weekends {
