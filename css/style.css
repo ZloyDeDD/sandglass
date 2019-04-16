@@ -377,8 +377,6 @@ body {
 /* ORDER SECTION */
 
 .order {
-  min-height: 691px;
-
   background-color: #e8f3f5;
   background-image: url("../img/order-bg.jpg");
   background-repeat: no-repeat;
@@ -386,11 +384,37 @@ body {
   background-size: cover;
 }
 
+.order .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 691px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .order .section-heading {
+  margin-bottom: 60px;
+
   color: #007fb2;
 }
 
+.order__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form__inputs {
+  display: flex;
+  justify-content: space-between;
+  min-width: 700px;
+  margin-bottom: 65px;
+}
+
 .form__item input {
+  min-width: 320px;
   padding: 7px 12px;
 
   border: 1px solid #007fb2;

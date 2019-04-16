@@ -154,18 +154,22 @@
     </section>
 
     <section class="order">
-      <h2 class="section-heading">Закажите прямо сейчас!</h2>
-      <form class="order__form form" action="https://echo.htmlacademy.ru" method="post">
-        <p class="form__item">
-          <label class="visually-hidden" for="name">Имя</label>
-          <input id="name" name="name" type="text" placeholder="Имя">
-        </p>
-        <p class="form__item">
-          <label class="visually-hidden" for="phone">Телефон</label>
-          <input id="phone" name="phone" type="tel" placeholder="Телефон">
-        </p>
-        <button class="button" type="submit">Заказать</button>
-      </form>
+      <div class="container">
+        <h2 class="section-heading">Закажите прямо сейчас!</h2>
+        <form class="order__form form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="form__inputs">
+            <p class="form__item">
+              <label class="visually-hidden" for="name">Имя</label>
+              <input id="name" name="name" type="text" placeholder="Имя" required>
+            </p>
+            <p class="form__item">
+              <label class="visually-hidden" for="phone">Телефон</label>
+              <input id="phone" name="phone" type="tel" placeholder="Телефон" required>
+            </p>
+          </div>
+          <button class="button" type="submit">Заказать</button>
+        </form>
+      </div>
     </section>
 
     <section class="contacts">
