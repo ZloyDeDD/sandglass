@@ -119,14 +119,14 @@ body {
 .custom-list__item {
   position: relative;
 
-  padding-left: 55px;
+  padding-left: 30px;
 }
 
 .custom-list__item::before {
   content: "";
   position: absolute;
   top: 6px;
-  left: 25px;
+  left: 0;
 
   width: 18px;
   height: 16px;
