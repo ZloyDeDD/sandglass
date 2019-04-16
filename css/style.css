@@ -608,7 +608,22 @@ body {
 /* FOOTER */
 
 .page-footer {
+  position: relative;
+
   text-align: center;
+}
+
+.page-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  width: 50px;
+  height: 14px;
+
+  background-color: #05141d;
+  transform: translate(-50%);
 }
 
 .page-footer .container {
