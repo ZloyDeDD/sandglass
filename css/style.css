@@ -475,9 +475,26 @@ body {
 
 /* SEO SECTION */
 
+.seo .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.seo .section-heading {
+  margin-bottom: 50px;
+}
+
+.seo__text {
+  padding-right: 380px;
+}
+
 .seo__text p {
   margin: 0;
   padding: 0;
+}
+
+.seo__text p:not(:last-child) {
+  margin-bottom: 25px;
 }
 
 /* FOOTER */
