@@ -366,8 +366,39 @@ body {
 }
 
 .product__list-item {
-  width: 720px;
-  padding-left: 205px;
+  position: relative;
+
+  width: 670px;
+  padding-left: 250px;
+}
+
+.product__list-item:nth-child(odd) {
+  width: 780px;
+}
+
+.product__list-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+
+  width: 222px;
+  height: 222px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.product__list-item--1::before {
+  background-image: url("../img/product__list-item--1.png");
+}
+
+.product__list-item--2::before {
+  background-image: url("../img/product__list-item--2.png");
+}
+
+.product__list-item--3::before {
+  background-image: url("../img/product__list-item--3.png");
 }
 
 .product__list-item--table {
